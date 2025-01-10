@@ -1,0 +1,18 @@
+<module>
+    <id>xibosignage-g1</id>
+    <name>G1 RSS</name>
+    <author>Henrique Lucas</author>
+    <description>RSS do G1</description>
+    <class>\Xibo\Custom\gumDataProvider</class>
+    <type>g1</type>
+    <dataType>g1</dataType>
+    <schemaVersion>1</schemaVersion>
+    <assignable>1</assignable>
+    <regionSpecific>1</regionSpecific>
+    <renderAs>html</renderAs>
+    <defaultDuration></defaultDuration>
+    <settings></settings>
+    <properties>
+    </properties>
+    <preview></preview>
+</module>
