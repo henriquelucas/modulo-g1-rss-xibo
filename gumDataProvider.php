@@ -18,7 +18,7 @@ class gumDataProvider implements WidgetProviderInterface
         $client = new Client();
 
         // URL do feed RSS do G1
-        $url = 'https://g1.globo.com/rss/g1/pb/paraiba/';
+        $url = 'https://g1.globo.com/rss/g1/';
 
         // Realizando a requisição GET para o feed RSS
         $response = $client->get($url);
