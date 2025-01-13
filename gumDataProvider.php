@@ -17,8 +17,14 @@ class gumDataProvider implements WidgetProviderInterface
         // Criando uma instância do cliente HTTP (Guzzle)
         $client = new Client();
 
+
         // URL do feed RSS do G1
-        $url = 'https://g1.globo.com/rss/g1/';
+        $url = $dataProvider->getProperty('uri');
+
+        if (empty($url)) {
+            throw new InvalidArgumentException(__('Please enter the URI to a valid RSS feed.'), 'uri');
+        }
+        
 
         // Realizando a requisição GET para o feed RSS
         $response = $client->get($url);
