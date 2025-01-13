@@ -1,8 +1,3 @@
-
-Aqui está um exemplo de README.md para o seu módulo. Ele apresenta as informações de forma clara e organizada para o GitHub:
-
-markdown
-Copiar código
 # Xibo G1 RSS Module
 
 Este módulo permite exibir notícias do feed RSS do G1 diretamente em telas gerenciadas pelo Xibo. As notícias são exibidas com imagens de fundo, título e o logotipo do G1.
