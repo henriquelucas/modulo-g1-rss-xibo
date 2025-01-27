@@ -41,26 +41,22 @@
 
 <templates>
     <template>
-        <id>g1_subject</id>
-        <extends override="text" with="data.subject">text</extends>
-        <title>Número do Concurso</title>
-        <type>element</type>
-        <dataType>g1</dataType>
-        <icon>fas fa-font</icon>
-        <canRotate>true</canRotate>
-        <startWidth>800</startWidth>
-        <startHeight>100</startHeight>
-    </template>
-    
-    <template>
-        <id>g1_body</id>
-        <extends override="text" with="data.body" escapeHtml="false">text</extends>
-        <title>RSS G1</title>
+        <id>g1_titulo</id>
+        <extends override="text" with="data.titulo" escapeHtml="false">text</extends>
+        <title>Titulo</title>
         <type>element</type>
         <dataType>g1</dataType>
         <icon>fas fa-envelope</icon>
         <canRotate>true</canRotate>
-        <startWidth>1920</startWidth>
-        <startHeight>1080</startHeight>
+    </template>
+
+    <template>
+        <id>g1_corpo</id>
+        <extends override="text" with="data.corpo" escapeHtml="false">text</extends>
+        <title>Imagem</title>
+        <type>element</type>
+        <dataType>g1</dataType>
+        <icon>fas fa-envelope</icon>
+        <canRotate>true</canRotate>
     </template>
 </templates>
